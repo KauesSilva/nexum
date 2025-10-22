@@ -1,0 +1,26 @@
+Roxo: #9144EC
+Azul: #2acfcf
+Cinza: #35323e
+Cor escura: #11101D
+
+Roxo: Hover de botões, destaque
+Azul: Cor base, botões
+Cinza: Títulos, fundos secundários
+Preto: Fundos, títulos destaque
+
+Variáveis CSS
+
+:root {
+ roxo: #9144EC;
+ azul: #2acfcf;
+ cinza: #35323e;
+ preto: #11101D;
+}
+
+Exemplo de uso
+
+.button {
+  background-color: var(--azul);
+}
+
+  box-shadow:0px 0px 0px 7px rgb(255, 255, 255);
